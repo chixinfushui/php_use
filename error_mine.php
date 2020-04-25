@@ -34,7 +34,7 @@ function my_error($errno, $errstr, $serrfile, $errline)
 }
 
 echo $a;
-
+ 
 echo '<br>';
 set_error_handler('my_error');
 echo $a;
